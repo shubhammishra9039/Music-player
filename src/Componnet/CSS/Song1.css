@@ -1,0 +1,105 @@
+.container {
+  height: 100vh;
+  width: 225vh;
+  background-image: url(../../Image/Background.jpg);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: poppins;
+}
+
+.song-container {
+  height: 500px;
+  width: 600px;
+  background-color: rgba(245, 245, 245, 0.339);
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.song-container img
+{
+    margin-top: 50px;
+    width: 200px;
+    border-radius: 20px;
+    
+}
+
+.song-container h1 marquee{
+  color: #348573;
+  text-transform: uppercase;
+  width: 200px;
+}
+
+.input-name {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    
+
+}
+
+input[type='range'] {
+  overflow: hidden;
+  width: 275px;
+  -webkit-appearance: none;
+  background-color:whitesmoke;
+}
+
+input[type='range']::-webkit-slider-runnable-track {
+  height: 10px;
+  -webkit-appearance: none;
+  color: whitesmoke;
+  margin-top: -1px;
+}
+
+input[type='range']::-webkit-slider-thumb {
+  width: 15px;
+  -webkit-appearance: none;
+  height: 15px;
+ 
+  cursor: ew-resize;
+  background: #434343;
+  box-shadow: -80px 0 0 80px #43e5f7;
+}
+
+.input-name p
+{
+    color: #306f63;
+}
+
+
+  .btn {
+    margin-top: 20px;
+    width: 100%;
+    height: 175px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .btn button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    background: #306f63;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    color: #333;
+    margin: 0 10px;
+   border-radius: 50%;
+  box-shadow: 4px 4px 2px rgb(255, 255, 255),2px 2px 2px rgb(0, 0, 0);
+  }
+  
+
+
+
